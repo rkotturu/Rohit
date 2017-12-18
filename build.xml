@@ -11,6 +11,7 @@
 		<mkdir dir="build/classes"/>
 		<mkdir dir="dist" />
 		<mkdir dir="src" />
+		<mkdir dir="WebContent/WEB-INF/web.xml" />
 	</target>
 	
 	<target name="compile" depends="init" >
